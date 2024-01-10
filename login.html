@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style_login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Login</title>
+</head>
+
+<body>
+    <video autoplay loop muted plays-inline class="back-video">
+        <source src="assets/video/mariokartdeluxe.mp4">
+    </video>
+   
+        <!-- Aqui inicia el formulario-->
+        
+        <div class="login-section">
+        <div class="formbox login">
+            <form action="">
+
+                <h2>Iniciar Sesión</h2>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class='bx bx-envelope'></i>
+                    </span>
+                    <input type="email" required>
+                    <label for="">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class='bx bx-lock-alt'></i>
+                    </span>
+                    <input type="password" required>
+                    <label for="">Contraseña</label>
+                </div>
+                <div class="remmeber-password">
+                    <label for=""><input type="checkbox" name="" id="">Recordar contraseña</label>
+                </div>
+                <button class="btn">Login In</button>
+                <div class="create-account">
+                    <p>Creaste una cuenta? <a href="#" class="register-link"> Inicia Sesión</a></p>
+                </div>
+               <!-- Fin de inicio sesion-->
+            </form>
+        </div>
+        
+        <div class="formbox register">
+            <form action="">
+
+                <h2>REGISTRATE</h2>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class='bx bx-envelope'></i>
+                    </span>                  
+                    <input type="email" required>
+                    <label for="">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class='bx bx-lock-alt'></i>
+                    </span>
+                    <input type="password" required>
+                    <label for="">Contraseña</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class='bx bx-lock-alt'></i>
+                    </span>
+                    <input type="password" required>
+                    <label for="">Confirmar Contraseña</label>
+                </div>
+                <button class="btn">Registrate</button>
+                <div class="create-account">
+                    <p>¿Listo para tener una cuenta? <a href="#" class="Login-link"> Inicia Sesión</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="/js/index.js"></script>
+</body>
+</html>
